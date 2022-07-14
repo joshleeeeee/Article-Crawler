@@ -1,0 +1,17 @@
+{
+  "name": "article_crawler",
+  "version": "1.0.0",
+  "description": "Used to crawl a deal of articles of websit and merge them into a PDF.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "serve": "node ./build"
+  },
+  "author": "Ysat",
+  "license": "ISC",
+  "dependencies": {
+    "easy-pdf-merge": "^0.2.6",
+    "puppeteer": "^15.3.2",
+    "typescript": "^4.7.4"
+  }
+}
